@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T16:27:53 IST" name="Suite" finished-at="2024-02-29T16:29:24 IST" duration-ms="90486">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T16:27:53 IST" name="Test" finished-at="2024-02-29T16:29:24 IST" duration-ms="90486">
+      <class name="testCases.TC_003_HealthInsuranceTest">
+        <test-method signature="test_MenuItems()[pri:0, instance:testCases.TC_003_HealthInsuranceTest@7d9d0818]" started-at="2024-02-29T16:29:11 IST" name="test_MenuItems" finished-at="2024-02-29T16:29:22 IST" duration-ms="11107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_MenuItems -->
+      </class> <!-- testCases.TC_003_HealthInsuranceTest -->
+      <class name="testCases.TC_001_TravelInsuranceTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:27:54 IST" name="setup" finished-at="2024-02-29T16:28:10 IST" duration-ms="16291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_HomePage()[pri:1, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:28:11 IST" name="test_HomePage" finished-at="2024-02-29T16:28:12 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_HomePage -->
+        <test-method signature="test_Destinations()[pri:2, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:28:12 IST" name="test_Destinations" finished-at="2024-02-29T16:28:17 IST" duration-ms="4442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Destinations -->
+        <test-method signature="test_TripDate()[pri:3, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:28:17 IST" name="test_TripDate" finished-at="2024-02-29T16:28:25 IST" duration-ms="7740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TripDate -->
+        <test-method signature="test_Travellers()[pri:4, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:28:26 IST" name="test_Travellers" finished-at="2024-02-29T16:28:34 IST" duration-ms="8219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Travellers -->
+        <test-method signature="test_MedicalHistory()[pri:5, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:28:35 IST" name="test_MedicalHistory" finished-at="2024-02-29T16:28:35 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_MedicalHistory -->
+        <test-method signature="test_contactDetails()[pri:6, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:28:36 IST" name="test_contactDetails" finished-at="2024-02-29T16:28:37 IST" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_contactDetails -->
+        <test-method signature="test_StudentPlans()[pri:7, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:28:38 IST" name="test_StudentPlans" finished-at="2024-02-29T16:28:50 IST" duration-ms="12134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_StudentPlans -->
+        <test-method signature="test_DisplayTravelInsurance()[pri:8, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:28:50 IST" name="test_DisplayTravelInsurance" finished-at="2024-02-29T16:28:55 IST" duration-ms="4325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_DisplayTravelInsurance -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_TravelInsuranceTest@268f106e]" started-at="2024-02-29T16:29:23 IST" name="teardown" finished-at="2024-02-29T16:29:24 IST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_TravelInsuranceTest -->
+      <class name="testCases.TC_002_CarInsuranceTest">
+        <test-method signature="test_HomePage()[pri:1, instance:testCases.TC_002_CarInsuranceTest@183ec003]" started-at="2024-02-29T16:28:55 IST" name="test_HomePage" finished-at="2024-02-29T16:29:00 IST" duration-ms="4603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_HomePage -->
+        <test-method signature="test_carQuote()[pri:2, instance:testCases.TC_002_CarInsuranceTest@183ec003]" started-at="2024-02-29T16:29:00 IST" name="test_carQuote" finished-at="2024-02-29T16:29:04 IST" duration-ms="4432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carQuote -->
+        <test-method signature="test_carCityAndRto()[pri:3, instance:testCases.TC_002_CarInsuranceTest@183ec003]" started-at="2024-02-29T16:29:05 IST" name="test_carCityAndRto" finished-at="2024-02-29T16:29:05 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carCityAndRto -->
+        <test-method signature="test_carBrand()[pri:4, instance:testCases.TC_002_CarInsuranceTest@183ec003]" started-at="2024-02-29T16:29:05 IST" name="test_carBrand" finished-at="2024-02-29T16:29:06 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carBrand -->
+        <test-method signature="test_carModel()[pri:5, instance:testCases.TC_002_CarInsuranceTest@183ec003]" started-at="2024-02-29T16:29:06 IST" name="test_carModel" finished-at="2024-02-29T16:29:06 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carModel -->
+        <test-method signature="test_carFuelType()[pri:6, instance:testCases.TC_002_CarInsuranceTest@183ec003]" started-at="2024-02-29T16:29:07 IST" name="test_carFuelType" finished-at="2024-02-29T16:29:07 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carFuelType -->
+        <test-method signature="test_carVariant()[pri:7, instance:testCases.TC_002_CarInsuranceTest@183ec003]" started-at="2024-02-29T16:29:07 IST" name="test_carVariant" finished-at="2024-02-29T16:29:07 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carVariant -->
+        <test-method signature="test_userDetails()[pri:8, instance:testCases.TC_002_CarInsuranceTest@183ec003]" started-at="2024-02-29T16:29:08 IST" name="test_userDetails" finished-at="2024-02-29T16:29:10 IST" duration-ms="2287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_userDetails -->
+        <test-method signature="test_captureErrorMsg()[pri:9, instance:testCases.TC_002_CarInsuranceTest@183ec003]" started-at="2024-02-29T16:29:11 IST" name="test_captureErrorMsg" finished-at="2024-02-29T16:29:11 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_captureErrorMsg -->
+      </class> <!-- testCases.TC_002_CarInsuranceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

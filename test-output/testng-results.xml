@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="22" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T15:32:59 IST" name="Suite" finished-at="2024-02-29T15:36:49 IST" duration-ms="230068">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T15:32:59 IST" name="Test" finished-at="2024-02-29T15:36:49 IST" duration-ms="230068">
+      <class name="testCases.TC_003_HealthInsuranceTest">
+        <test-method signature="test_MenuItems()[pri:0, instance:testCases.TC_003_HealthInsuranceTest@644baf4a]" started-at="2024-02-29T15:36:33 IST" name="test_MenuItems" finished-at="2024-02-29T15:36:47 IST" duration-ms="14322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_MenuItems -->
+      </class> <!-- testCases.TC_003_HealthInsuranceTest -->
+      <class name="testCases.TC_001_TravelInsuranceTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:33:00 IST" name="setup" finished-at="2024-02-29T15:33:54 IST" duration-ms="54425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_HomePage()[pri:1, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:33:55 IST" name="test_HomePage" finished-at="2024-02-29T15:34:19 IST" duration-ms="24436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_HomePage -->
+        <test-method signature="test_Destinations()[pri:2, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:34:20 IST" name="test_Destinations" finished-at="2024-02-29T15:34:21 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Destinations -->
+        <test-method signature="test_TripDate()[pri:3, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:34:22 IST" name="test_TripDate" finished-at="2024-02-29T15:34:42 IST" duration-ms="19763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TripDate -->
+        <test-method signature="test_Travellers()[pri:4, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:34:42 IST" name="test_Travellers" finished-at="2024-02-29T15:34:55 IST" duration-ms="12493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Travellers -->
+        <test-method signature="test_MedicalHistory()[pri:5, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:34:55 IST" name="test_MedicalHistory" finished-at="2024-02-29T15:34:56 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_MedicalHistory -->
+        <test-method signature="test_contactDetails()[pri:6, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:34:56 IST" name="test_contactDetails" finished-at="2024-02-29T15:35:02 IST" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_contactDetails -->
+        <test-method signature="test_StudentPlans()[pri:7, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:35:02 IST" name="test_StudentPlans" finished-at="2024-02-29T15:35:53 IST" duration-ms="51142" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <li class="options_box_wrapper__option">...</li> is not clickable at point (210, 247). Other element would receive the click: <div class="editModalPopup studentPlanModal">...</div>
+  (Session info: chrome=113.0.5672.93)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2a7316200afb13a702c3b671fbb0f115, clickElement {id=34201EF8AA03DD56EED494F61832EF8C_element_596}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59443/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2a7316200afb13a702c3b671fbb0f115)] -> xpath: (//li[@class='options_box_wrapper__option'])[2]]
+Session ID: 2a7316200afb13a702c3b671fbb0f115]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li class="options_box_wrapper__option">...</li> is not clickable at point (210, 247). Other element would receive the click: <div class="editModalPopup studentPlanModal">...</div>
+  (Session info: chrome=113.0.5672.93)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2a7316200afb13a702c3b671fbb0f115, clickElement {id=34201EF8AA03DD56EED494F61832EF8C_element_596}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59443/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2a7316200afb13a702c3b671fbb0f115)] -> xpath: (//li[@class='options_box_wrapper__option'])[2]]
+Session ID: 2a7316200afb13a702c3b671fbb0f115
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy49.click(Unknown Source)
+at pageObjects.TravelInsurance.sortByPrice(TravelInsurance.java:204)
+at testCases.TC_001_TravelInsuranceTest.test_StudentPlans(TC_001_TravelInsuranceTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_StudentPlans -->
+        <test-method signature="test_DisplayTravelInsurance()[pri:8, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:35:54 IST" name="test_DisplayTravelInsurance" finished-at="2024-02-29T15:35:59 IST" duration-ms="5660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_DisplayTravelInsurance -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_TravelInsuranceTest@3e27aa33]" started-at="2024-02-29T15:36:47 IST" name="teardown" finished-at="2024-02-29T15:36:49 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_TravelInsuranceTest -->
+      <class name="testCases.TC_002_CarInsuranceTest">
+        <test-method signature="test_HomePage()[pri:1, instance:testCases.TC_002_CarInsuranceTest@f78a47e]" started-at="2024-02-29T15:36:00 IST" name="test_HomePage" finished-at="2024-02-29T15:36:15 IST" duration-ms="15723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_HomePage -->
+        <test-method signature="test_carQuote()[pri:2, instance:testCases.TC_002_CarInsuranceTest@f78a47e]" started-at="2024-02-29T15:36:16 IST" name="test_carQuote" finished-at="2024-02-29T15:36:25 IST" duration-ms="9093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carQuote -->
+        <test-method signature="test_carCityAndRto()[pri:3, instance:testCases.TC_002_CarInsuranceTest@f78a47e]" started-at="2024-02-29T15:36:25 IST" name="test_carCityAndRto" finished-at="2024-02-29T15:36:26 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carCityAndRto -->
+        <test-method signature="test_carBrand()[pri:4, instance:testCases.TC_002_CarInsuranceTest@f78a47e]" started-at="2024-02-29T15:36:27 IST" name="test_carBrand" finished-at="2024-02-29T15:36:27 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carBrand -->
+        <test-method signature="test_carModel()[pri:5, instance:testCases.TC_002_CarInsuranceTest@f78a47e]" started-at="2024-02-29T15:36:28 IST" name="test_carModel" finished-at="2024-02-29T15:36:28 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carModel -->
+        <test-method signature="test_carFuelType()[pri:6, instance:testCases.TC_002_CarInsuranceTest@f78a47e]" started-at="2024-02-29T15:36:28 IST" name="test_carFuelType" finished-at="2024-02-29T15:36:29 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carFuelType -->
+        <test-method signature="test_carVariant()[pri:7, instance:testCases.TC_002_CarInsuranceTest@f78a47e]" started-at="2024-02-29T15:36:29 IST" name="test_carVariant" finished-at="2024-02-29T15:36:30 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carVariant -->
+        <test-method signature="test_userDetails()[pri:8, instance:testCases.TC_002_CarInsuranceTest@f78a47e]" started-at="2024-02-29T15:36:30 IST" name="test_userDetails" finished-at="2024-02-29T15:36:32 IST" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_userDetails -->
+        <test-method signature="test_captureErrorMsg()[pri:9, instance:testCases.TC_002_CarInsuranceTest@f78a47e]" started-at="2024-02-29T15:36:32 IST" name="test_captureErrorMsg" finished-at="2024-02-29T15:36:32 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_captureErrorMsg -->
+      </class> <!-- testCases.TC_002_CarInsuranceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
